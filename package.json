@@ -1,0 +1,28 @@
+{
+  "name": "serverless-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy:dev": "npx serverless deploy -s dev",
+    "deploy:prod": "npx serverless deploy -s prod",
+    "remove:dev": "npx serverless remove -s dev",
+    "remove:prod": "npx serverless remove -s prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lindseyt75/serverless-api.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lindseyt75/serverless-api/issues"
+  },
+  "homepage": "https://github.com/Lindseyt75/serverless-api#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "serverless": "^3.22.0"
+  }
+}
